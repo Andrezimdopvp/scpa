@@ -1,0 +1,28 @@
+#body
+{
+    background-color: aquamarine;
+}
+#hd
+{
+    background-color: blueviolet;
+    color: blanchedalmond;
+    font-family: "Roboto Slab", serif;
+}
+#notem
+{
+    font-style: italic;
+    font-weight: 10px;
+    font-size: 30px;
+}
+#stat
+{
+    font-style: initial;
+    margin-top: 10px;
+    width: 75px;
+    font-weight: 10px;
+}
+#imagem
+{
+    width: 50%;
+    height: 40%;
+}
