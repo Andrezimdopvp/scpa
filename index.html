@@ -9,23 +9,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sons controlados por animais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
-<body>
-    <div class="col-xs-12 text-center header_div">
+<body id="body">
+    <div class="col-xs-12 text-center header_div" id="hd">
         <h2>Sons controlados por animais</h2>
-        <p>Nota: Reproduza diferentes sons, como latidos, miados, mugidos e rugidos.</p>
+        <p id="notem">Nota: Reproduza diferentes sons, como latidos, miados, mugidos e rugidos.</p>
+        
     </div>
     <div class="main_div">
         <center>
-            <button onclick="iniciar()" class="btn btn-warning">Iniciar</button>
-            <h4 id="numero"></h4>
-            <h3 id="audio"></h3>
+            <button onclick="iniciar()" class="btn btn-warning" id="stat">Iniciar</button>
             <br>
-            <img id="imagem" src="enxoval-para-gato-Copia.jpg">
+            <span id="dog" class="d"></span>
+            <span id="cat" class="d"></span>
+            <span id="lion" class="d"></span>
+            <span id="cow" class="d"></span>
+            <span id="noises" class="d"></span>
+            <br>
+            <img id="imagem" src="gato.jpg">
         </center>
     </div>
     <div class="copy_right_footer">
         
     </div>
+    <footer>
+        Desenvolvido por - André Coelho
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
